@@ -1,75 +1,197 @@
-index.html
 <!DOCTYPE html>
 <html>
 <head>
 <title>Priyanshu Editz | Video Editor</title>
+
 <style>
-body{font-family:Arial;text-align:center;background:#111;color:white}
-.video{margin:20px}
+
+body{
+font-family: Arial;
+background:#0b0b0b;
+color:white;
+margin:0;
+text-align:center;
+}
+
+/* HERO SECTION */
+.hero{
+padding:60px 20px;
+background:linear-gradient(180deg,#111,#000);
+}
+
+.hero h1{
+font-size:48px;
+margin:10px;
+}
+
+.hero p{
+color:#aaa;
+font-size:18px;
+}
+
+/* SECTION */
+.section{
+padding:50px 20px;
+}
+
+.section h2{
+margin-bottom:30px;
+}
+
+/* VIDEO GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+max-width:1100px;
+margin:auto;
+}
+
+.video{
+background:#111;
+padding:15px;
+border-radius:12px;
+transition:0.3s;
+}
+
+.video:hover{
+transform:scale(1.05);
+box-shadow:0 0 20px rgba(255,255,255,0.1);
+}
+
+iframe{
+width:100%;
+height:200px;
+border-radius:10px;
+border:none;
+}
+
+/* SKILLS */
+.skills span{
+background:#1a1a1a;
+padding:10px 15px;
+margin:5px;
+display:inline-block;
+border-radius:20px;
+}
+
+/* CONTACT */
+.contact a{
+color:white;
+text-decoration:none;
+margin:10px;
+padding:12px 20px;
+background:#222;
+border-radius:8px;
+display:inline-block;
+transition:.3s;
+}
+
+.contact a:hover{
+background:white;
+color:black;
+}
+
+footer{
+padding:30px;
+color:#777;
+}
+
 </style>
 </head>
+
 <body>
 
+<!-- HERO -->
+<div class="hero">
 <h1>Priyanshu Editz</h1>
-<p>Video Editor | Reels • shorts • Cinematic</p>
+<p>Video Editor • Reels • Shorts • Cinematic Content</p>
+</div>
+
+<!-- SHOWREEL -->
+<div class="section">
+<h2>My Work</h2>
+
+<div class="grid">
 
 <div class="video">
 <h3>Project 1</h3>
-<iframe width="300" height="170"
-src="https://drive.google.com/file/d/1LnxrKWOuNwxZO9sSETGcCqfO5R26lkLW/preview"
-frameborder="0" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1LnxrKWOuNwxZO9sSETGcCqfO5R26lkLW/preview"></iframe>
 </div>
 
 <div class="video">
 <h3>Project 2</h3>
-<iframe width="300" height="170"
-src="https://drive.google.com/file/d/1LUXHwuUWEvvNaEM4q3awDOOt5-x-rHrb/preview"
-frameborder="0" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1LUXHwuUWEvvNaEM4q3awDOOt5-x-rHrb/preview"></iframe>
 </div>
 
 <div class="video">
 <h3>Project 3</h3>
-<iframe width="300" height="170"
-src="https://drive.google.com/file/d/13o4ECXObuRNYVrTCdlNvFjXhfRCwTX-k/preview"
-frameborder="0" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/13o4ECXObuRNYVrTCdlNvFjXhfRCwTX-k/preview"></iframe>
 </div>
 
 <div class="video">
 <h3>Project 4</h3>
-<iframe width="300" height="170"
-src="https://drive.google.com/file/d/1Q4ZadHuZqg7yJqtZRAaFuiw9F_xRfpXn/preview"
-frameborder="0" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1Q4ZadHuZqg7yJqtZRAaFuiw9F_xRfpXn/preview"></iframe>
 </div>
 
 <div class="video">
 <h3>Project 5</h3>
-<iframe width="300" height="170"
-src="https://drive.google.com/file/d/104od96czqXR1ftXKESYanfmAU6Q7vc1i/preview"
-frameborder="0" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/104od96czqXR1ftXKESYanfmAU6Q7vc1i/preview"></iframe>
 </div>
 
 <div class="video">
 <h3>Project 6</h3>
-<iframe width="300" height="170"
-src="https://drive.google.com/file/d/1BDL-oEZvu76cb-ZEMWxJzuwLouTu-ujO/preview"
-frameborder="0" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1aZFAUZfyuOW7gCMjm7Uxlrdc0POx5loo/preview"></iframe>
 </div>
 
 <div class="video">
 <h3>Project 7</h3>
-<iframe width="300" height="170"
-src="https://drive.google.com/file/d/1aZFAUZfyuOW7gCMjm7Uxlrdc0POx5loo/preview"
-frameborder="0" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1aZFAUZfyuOW7gCMjm7Uxlrdc0POx5loo/preview"></iframe>
 </div>
 
 <div class="video">
 <h3>Project 8</h3>
-<iframe width="300" height="170"
-src="https://drive.google.com/file/d/1thN-AXq9-H-cwuaCT88ucms0rBbIHw6w/preview"
-frameborder="0" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1thN-AXq9-H-cwuaCT88ucms0rBbIHw6w/preview"></iframe>
 </div>
-  
-<p>Contact:priyanshu639860@gmail.com</p>
+
+</div>
+</div>
+
+<!-- ABOUT -->
+<div class="section">
+<h2>About Me</h2>
+<p>
+I am a video editor specializing in engaging short-form content,
+Instagram reels, and cinematic edits. I focus on storytelling,
+beat synchronization and audience retention.
+</p>
+</div>
+
+<!-- SKILLS -->
+<div class="section skills">
+<h2>Skills</h2>
+
+<span>Premiere Pro</span>
+<span>After Effects</span>
+<span>Color Grading</span>
+<span>Reels Editing</span>
+<span>Beat Sync</span>
+<span>Motion Graphics</span>
+
+</div>
+
+<!-- CONTACT -->
+<div class="section contact">
+<h2>Contact</h2>
+
+<a href="mailto:priyanshu639860@gmail.com">Email Me</a>
+<a href="https://drive.google.com/drive/folders/1Hx4CCvrMJ9bHhC1EAFvzcw4f2r1d4MI5">Full Portfolio</a>
+
+</div>
+
+<footer>
+© 2026 Priyanshu Editz
+</footer>
 
 </body>
 </html>
